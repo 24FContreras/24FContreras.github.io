@@ -1,0 +1,23 @@
+body{
+  font-family: 'Saira', sans-serif;
+}
+
+/* HEADER */
+.hero{
+  background-color: rgb(1, 138, 165);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 550px;
+}
+
+/* TECH */
+.tech{
+  background-image: url("");
+  background-size: cover;
+}
+
+/* MIS PROYECTOS */
+.card{
+  overflow: hidden;
+}
