@@ -19,9 +19,9 @@
 
   <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darker">
       <div class="container">
-        <a class="navbar-brand font-saira fw-bold" href="#"><i class="fa-solid fa-code"></i> PORTAFOLIO</a>
+        <a class="navbar-brand font-saira fw-bold" href="#"><i class="fa-solid fa-code"></i> FRANCO CONTRERAS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,46 +42,50 @@
       </div>
     </nav>
     <!-- HEADER -->
-    <header class="hero container-fluid text-light text-end">
-      <div class="container">
-        <h1 class="display-1 fw-semibold text-end pt-5">On the Road</h1>
-        <p class="lead fs-3 ">Hola! Soy Franco Contreras, estudiante de la carrera de Desarrollo FullStack. Aquí podrán encontrar el portafolio de mis trabajos realizados durante el módulo de Introducción al Desarrollo Web en Desafío Latam</p>
+    <header class="hero text-light text-end py-5">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col col-12 col-md-6">
+          </div>
+          <div class="text col-12 col-md-6">
+            <h1 class="display-1 fw-semibold text-end"><i class="fa-solid fa-folder-open"></i><i class="fa-solid fa-arrow-pointer fs-4"></i> Open</h1>
+            <p class="lead fs-5">Soy Franco Contreras, estudiante de la carrera de Desarrollo FullStack. Aquí podrán encontrar el portafolio de mis trabajos realizados durante el módulo de Introducción al Desarrollo Web en DesafíoLatam</p>
+          </div>
+        </div>
       </div>
     </header>
     <!-- TECH -->
-    <section class="tech" id="tech">
-      <div class="container-fluid">
-        <div class="container">
-          <h2 class="fw-semibold fs-1 p-5 text-center">TECNOLOGÍAS UTILIZADAS</h2>
-          <div class="row row-cols-2 row-cols-md-5 text-center pb-5 g-4">
-            <div class="col">
-              <i class="fa-brands fa-html5 display-4"></i>
-              <p class="fw-bold fs-5 mt-2">HTML5</p>
-            </div>
-            <div class="col">
-              <i class="fa-brands fa-css3 display-4"></i>
-              <p class="fw-bold fs-5 mt-2">CSS3</p>
-            </div>
-            <div class="col">
-              <i class="fa-brands fa-bootstrap display-4"></i>
-              <p class="fw-bold fs-5 mt-2">BOOTSTRAP 5.2</p>
-            </div>
-            <div class="col">
-              <i class="fa-brands fa-git-alt display-4"></i>
-              <p class="fw-bold fs-5 mt-2">GIT</p>
-            </div>
-            <div class="col col-12">
-              <i class="fa-brands fa-github display-4"></i>
-              <p class="fw-bold fs-5 mt-2">GITHUB</p>
-            </div>
+    <section class="tech pb-3" id="tech">
+      <div class="container">
+        <h2 class="fw-semibold fs-1 py-5 text-center">Tecnologías</h2>
+        <div class="row row-cols-2 row-cols-md-5 text-center g-4">
+          <div class="col">
+            <i class="fa-brands fa-html5 display-4"></i>
+            <p class="fw-bold fs-5 mt-2">HTML5</p>
+          </div>
+          <div class="col">
+            <i class="fa-brands fa-css3 display-4"></i>
+            <p class="fw-bold fs-5 mt-2">CSS3</p>
+          </div>
+          <div class="col">
+            <i class="fa-brands fa-bootstrap display-4"></i>
+            <p class="fw-bold fs-5 mt-2">Bootstrap 5.2</p>
+          </div>
+          <div class="col">
+            <i class="fa-brands fa-git-alt display-4"></i>
+            <p class="fw-bold fs-5 mt-2">Git</p>
+          </div>
+          <div class="col col-12">
+            <i class="fa-brands fa-github display-4"></i>
+            <p class="fw-bold fs-5 mt-2">Github</p>
           </div>
         </div>
       </div>
     </section>
     <!-- MIS PROYECTOS -->
-    <section class="mis-proyectos" id="projects">
+    <section class="projects bg-dark" id="projects">
       <div class="container py-5">
-        <h2 class="font-saira text-center fw-semibold fs-1 mb-5">MIS PROYECTOS</h2>
+        <h2 class="text-center fw-semibold fs-1 mb-5 text-light">Mis Proyectos</h2>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 px-3 px-md-0">
           <!-- PROJECT CARD -->
           <div class="col">
@@ -171,22 +175,10 @@
       </div>
     </section>
     <!-- FOOTER -->
-    <footer class="bg-dark text-center text-light p-4">
-      <p class="mb-0">© Franco Contreras 2022. Todos los derechos reservados.</p>
+    <footer class="bg-darker text-center text-light p-4">
+      <p class="mb-0">© Franco Contreras 2022</p>
     </footer>
-    
-    
-    
-    
-    
-    
-
     <!-- BOOTSTRAP JS BUNDLE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <script>
-      const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-
-    </script>
   </body>
 </html>

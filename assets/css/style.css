@@ -4,20 +4,33 @@ body{
 
 /* HEADER */
 .hero{
-  background-color: rgb(1, 138, 165);
+  background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-size: cover;
-  height: 550px;
 }
 
-/* TECH */
-.tech{
-  background-image: url("");
-  background-size: cover;
+@media (max-width: 500px) {
+  .hero .text{
+    text-shadow: #101621 5px 5px 10px;
+  }
 }
 
 /* MIS PROYECTOS */
-.card{
-  overflow: hidden;
+.projects .card{
+  border-radius: 0 !important;
+}
+
+/* CUSTOM CLASSES */
+
+.bg-dark{
+  background-color: #161f30 !important;
+}
+
+.bg-darker{
+  background-color: #0c1019;
+}
+
+.bg-danger{
+  background-color: #ff3e05 !important;
 }
