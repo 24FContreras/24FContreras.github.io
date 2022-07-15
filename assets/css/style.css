@@ -1,4 +1,5 @@
 body{
+  color: #161f30;
   font-family: 'Saira', sans-serif;
 }
 
@@ -33,4 +34,8 @@ body{
 
 .bg-danger{
   background-color: #ff3e05 !important;
+}
+
+.text-danger {
+  color: #ff3e05 !important;
 }
