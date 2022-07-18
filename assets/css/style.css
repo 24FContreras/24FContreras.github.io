@@ -36,6 +36,10 @@ body{
   background-color: #ff3e05 !important;
 }
 
+.bg-primary {
+  background-color: #0083e1 !important;
+}
+
 .text-danger {
   color: #ff3e05 !important;
 }
